@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "bbcjob_rg" {
-  name     = "bbcjobrg4"
+  name     = "bbcjobrg5"
   location = "uksouth"
 }
