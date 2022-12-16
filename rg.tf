@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "bbcjob_rg" {
-  name     = "bbcjobrg6"
+  name     = "${var.env}-bbcjob-Jbox-rg"
   location = "uksouth"
 }
